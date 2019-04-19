@@ -1,0 +1,232 @@
+/* DYBT CSS Stylesheet */
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+nav#navigation {
+    display: inline;
+}
+
+header {
+    margin: 0 0 20px;
+    padding: 10px;
+    background: purple;
+    width: 100%;
+    color: black;
+    font-weight: 800;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul.rightSide {
+    float: right;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1#logo {
+    color: purple;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    font-size: 48px;
+    padding: 20px;
+}
+
+nav#navigation {
+    padding: 20px 0 50px;
+    border: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: black;
+}
+
+nav#navigation ul li {
+    display: inline;
+    padding: 5px;
+    border: 1px;
+    margin: 0 3px;
+    background: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+nav#navigation ul li a:link,
+nav#navigation ul li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav#navigation ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+span.momAndMe {
+    float: left;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+    background: purple;
+}
+
+#about h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 75px 0 0;
+}
+
+#about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px 0 10px 0;
+}
+
+#contact h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 75px 0 0;
+}
+
+#contact form {
+    float: right;
+    width: 40%;
+    margin: 0 15px 15px 15px;
+}
+
+#contact form fieldset legend {
+    font-size: 18px;
+}
+
+#contact form input {
+    margin: 3px 0 3px;
+    padding: 5px;
+    width: 500px;
+}
+
+#contact form input.message {
+    line-height: 1em;
+    resize: vertical;
+    vertical-align: top;
+    height: 50px;
+}
+
+#contact form input.button {
+    width: 150px;
+}
+
+#contact p {
+    float: left;
+    width: 45%;
+    margin: 15px 0 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+#treats {
+    width: 100%;
+    margin: 20px 0 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#treatphoto {
+    margin: auto;
+    align-content: center;
+}
+
+#treatphoto table {
+    margin: auto;
+    display: inline-block;
+}
+
+/* #treatphoto table tr td.treat1 img {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+}
+
+#treatphoto table tr td.treat2 img {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+}
+
+#treatphoto table tr td.treat3 img {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+}
+
+#treatphoto table tr td.cookieName1 h3 {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+}
+
+#treatphoto table tr td.cookieName2 h3 {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+}
+
+#treatphoto table tr td.cookieName3 h3 {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+}
+ */
+
+#treatphoto table tr td.treat1 {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+    text-align: center;
+}
+
+#treatphoto table tr td.treat2 {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+    text-align: center;
+}
+
+#treatphoto table tr td.treat3 {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background: purple;
+    text-align: center;
+}
+
+#homepageText {
+    text-align: center;
+    margin: 150px;
+}
